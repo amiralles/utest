@@ -11,7 +11,7 @@ This is a little program that shows how to write tests using this library.
 #include "./utest.h"
 
 int main() {
-	// Starts utest session.
+	// Start testing session.
 	utest_start();
 
 	// Demo passing test.

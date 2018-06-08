@@ -3,7 +3,7 @@ UTest is a small testing library for C programs.
 For convenience, it's just a header file that you can include in your program 
 and start writing tests right off the bat.
 
-# How it works
+## How it works
 This is a little program that shows how to write tests using micro test.
 
 ``` c
@@ -24,16 +24,30 @@ int main() {
 }
 ```
 
-# How to install
+## How to install
 Just clone this repo and include utest.h into your program.
 
-# Demo program
-Once you's clone this repo you can run a demo program:
+## Demo program
+This repo contains a demo program with a passing and a failing test. To run this
+program:
+
 ``` sh
-$ cd demo
+$ cd ./demo
 $ make
 ```
- 
 
+After running the previous command you should see something like this:
 
+``` sh
+UTEST v0.1
+* Two plus three is also 4. (nonsense.) FAILED. 
+
+TEST STATS
+Asserts:     2
+Pass:        1
+Failed:      1
+make: *** [all] Error 255
+```
+
+And that's  it. Let me know if you have any question.
 

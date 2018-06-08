@@ -1,10 +1,11 @@
 # utest
 UTest is a small testing library for C programs.
+
 For convenience, it's just a header file that you can include in your program 
 and start writing tests right off the bat.
 
 ## How it works
-This is a little program that shows how to write tests using micro test.
+This is a little program that shows how to write tests using this library.
 
 ``` c
 #include "./utest.h"

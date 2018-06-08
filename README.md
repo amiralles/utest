@@ -39,15 +39,15 @@ $ make
 
 After running the previous command you should see something like this:
 
-``` sh
+```
 UTEST v0.1
-\* Two plus three is also 4. (nonsense.) FAILED. 
+* Two plus three is also 4. (nonsense.) FAILED. 
 
 TEST STATS
 Asserts:     2
 Pass:        1
 Failed:      1
-make: \*** [all] Error 255
+make: *** [all] Error 255
 ```
 
 And that's  it. Let me know if you have any question.

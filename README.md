@@ -20,7 +20,7 @@ int main() {
 	// Demo failing test. (nonsense.)
 	ASSERT("Two plus three is also 4.", 2 + 3 == 4);
 
-	// And that's about it.
+	// End testing session.
 	return utest_end();
 }
 ```
